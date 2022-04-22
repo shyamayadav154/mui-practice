@@ -1,0 +1,34 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest":true
+        
+    },
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "airbnb",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react","prettier"
+    ],
+    "rules": {
+        "linebreak-style": "off",
+         "object-curly-newline": ["warn", {
+        "ObjectExpression": "never",
+        "ObjectPattern": { "multiline": false },
+        "ImportDeclaration": "never",
+        "ExportDeclaration": { "multiline": false, "minProperties": 3 }
+    }],
+    "no-unused-vars":"off"
+    }
+}

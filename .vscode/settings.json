@@ -1,0 +1,6 @@
+{
+  "eslint.options": {
+    "ignorePattern": ["webpack.config.js","index.js"]
+  },
+  "eslint.packageManager": "pnpm"
+}
