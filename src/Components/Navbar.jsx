@@ -60,7 +60,7 @@ function Navbar() {
         <StyledToolbar>
           <Typography
             variant="h6"
-            color="initial"
+            
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
             Lama Dev

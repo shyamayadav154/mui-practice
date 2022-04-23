@@ -29,6 +29,8 @@
         "ImportDeclaration": "never",
         "ExportDeclaration": { "multiline": false, "minProperties": 3 }
     }],
-    "no-unused-vars":"off"
+    "no-unused-vars":"off",
+    "react/jsx-filename-extension":"warn",
+    "react/prop-types": "off"
     }
 }
