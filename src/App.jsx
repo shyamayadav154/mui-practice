@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Box, createTheme, Stack, ThemeProvider } from '@mui/material';
 import './App.css';
+import CssBaseline from '@mui/material/CssBaseline';
 import Feed from './Components/Feed';
 import Rightbar from './Components/Rightbar';
 import Sidebar from './Components/Sidebar';
 import Navbar from './Components/Navbar';
 import Add from './Components/Add';
-
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -23,6 +23,7 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
+    <CssBaseline/>
       <Box bgcolor="#fcf5f5" color="text.primary">
         <Navbar />
         <Stack direction="row" spacing={1} justifyContent="space-between">
@@ -37,6 +38,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
