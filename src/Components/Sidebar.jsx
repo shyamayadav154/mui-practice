@@ -20,7 +20,7 @@ import {
 function Sidebar({setMode,mode}) {
   return (
     <Box
-      bgcolor="background.paper"
+      bgcolor={"background.paper"}
       flex={1.25}
       p={2}
      
